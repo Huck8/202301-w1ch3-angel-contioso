@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: #30a14e;
+  display: flex;
+  color: white;
+  padding: 2rem 0.2rem;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1rem;
+  justify-content: flex-start;
+  border: 2px solid red;
+}
+
+header ul {
+  display: flex;
+  border: 2px solid blue;
+}
+
+header ul li {
+  margin: 0 0.2rem;
+}
