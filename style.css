@@ -9,6 +9,10 @@ ul {
   list-style: none;
 }
 
+body {
+  background: #ffc845;
+}
+
 header {
   background: #30a14e;
   display: flex;
@@ -48,4 +52,19 @@ main .section-1 button {
   height: 2rem;
   width: 2rem;
   border-radius: 100%;
+}
+
+section.section-2 {
+  background: #ffc845;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.2rem;
+}
+
+section.section-3 div {
+  text-align: right;
+  padding: 0.2rem 2.2rem;
+
+  border-top: 1px solid black;
+  background: #ffc845;
 }
